@@ -1,0 +1,36 @@
+.navcol-container {
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: min-content;
+}
+
+.navcol-link {
+  color: black;
+  font-size: 1.2rem;
+  width: 300px;
+  text-align: left;
+  padding-inline: 1.2rem;
+  padding-block: 0.5rem;
+  border-top: 2px solid black;
+  text-decoration: none;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+.navcol-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+p.navcol-text {
+  padding-left: 2.4rem;
+}
+
+span:hover {
+  cursor: pointer;
+}

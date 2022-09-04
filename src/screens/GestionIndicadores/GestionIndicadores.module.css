@@ -1,0 +1,15 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.selects {
+  display: grid;
+  grid-template-columns: 30ch 1fr 1fr;
+  column-gap: 12px;
+  margin-bottom: 12px;
+}

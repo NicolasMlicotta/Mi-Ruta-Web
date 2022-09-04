@@ -1,0 +1,19 @@
+.form {
+  display: grid;
+  grid-template-columns: 400px;
+  row-gap: 0.8rem;
+  justify-content: right;
+  align-items: right;
+  margin-top: 12px;
+}
+
+input {
+  height: 32px;
+  padding-left: 1em;
+}
+button {
+  height: 32px;
+}
+button:hover {
+  cursor: pointer;
+}

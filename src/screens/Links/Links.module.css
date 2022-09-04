@@ -1,0 +1,12 @@
+.link {
+  display: grid;
+  grid-template-columns: 350px 50px;
+  margin-bottom: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-inline-start: 10px;
+}
+.box {
+  margin-top: 20px;
+}
